@@ -14,7 +14,6 @@ let icons = [
 
 rollDiceBtn.onclick = function() {
     diceChange.classList.remove("animation-roll");
-    //Trigger reflow to restart the animation
     diceChange.offsetWidth;
     diceChange.classList.add("animation-roll");
 
